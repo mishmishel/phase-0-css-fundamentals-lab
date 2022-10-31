@@ -5,5 +5,37 @@ body {
 }
 
 h1 {
-  color: red;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+nav > a {
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+nav {
+  text-align: center;
+}
+
+figure > figcaption {
+  font-size: smaller;
+}
+
+figure ~ p {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 5mm;
+  margin-bottom: 5mm;
+}
+
+div{
+  float: left;
+  background-color: antiquewhite;
+  text-align: center;
+  width: 25%;
 }
